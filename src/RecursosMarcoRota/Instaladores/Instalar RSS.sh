@@ -1,0 +1,3 @@
+yarn add rss-parser node-schedule
+cp src/RecursosMarcoRota/PluginsMovibles/rss.js plugins/rss.js
+echo Si todo salio bien, deberias poder usar .rss mas link para agregar y/o eliminar. Puedes ajustar el Tiempo de Busqueda en el Script. En caso que el bot se reinicie debes usar .rss de nuevo para reactivarlo. Se utiliza https://github.com/rbren/rss-parser y https://github.com/node-schedule/node-schedule
